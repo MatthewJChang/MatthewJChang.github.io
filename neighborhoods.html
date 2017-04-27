@@ -1,0 +1,217 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/style-neighborhoods.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="assets/js/script-neighborhoods.js"></script>
+<script type="text/javascript" src="assets/js/script-neighborhoods.js"></script>
+
+</head>
+<body>
+<div id = "map-container">
+	
+	<div id = "checkboxes">
+		<div> Basic Info </div> 
+		<input id = "basicinfo" type="checkbox" name = "basicinfo" />
+		<div> Racial Makeup  </div>
+		<input id = "racialmakeup" type="checkbox" name = "racialmakeup"/>
+		<div> First Languages  </div>
+		<input id = "firstlanguages" type="checkbox" name = "firstlanguages" />
+	</div>
+	<div class = "icons" id = "diepsloot">
+		<img id = "icon-diepsloot" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "midrand">
+		<img id = "icon-midrand" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "roodepoort">
+		<img id = "icon-roodepoort" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "sandton">
+		<img id = "icon-sandton" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "alexandra">
+		<img id = "icon-alexandra" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "northcliff">
+		<img id = "icon-northcliff" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "innercity">
+		<img id = "icon-innercity" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "doornkop">
+		<img id = "icon-doornkop" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "diepkloof">
+		<img id = "icon-diepkloof" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "johannesburgsouth">
+		<img id = "icon-johannesburgsouth" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div class = "icons" id = "ennerdale">
+		<img id = "icon-ennerdale" class = "township-icon" src = "assets/img/township-icon.png" height = "30" width = "30">
+	</div>
+
+	<div id = "info-diepsloot" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-midrand" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-roodepoort" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-sandton" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-alexandra" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-northcliff" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-innercity" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-doornkop" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-diepkloof" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-johannesburgsouth" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+	<div id = "info-ennerdale" class = "icons">
+		<div class = "info-block"></div>
+	</div>
+
+
+	<div id = "race-diepsloot" class = "icons">
+		
+	</div>
+	<div id = "race-midrand" class = "icons">
+		
+	</div>
+	<div id = "race-roodepoort" class = "icons">
+		
+	</div>
+	<div id = "race-sandton" class = "icons">
+		
+	</div>
+	<div id = "race-alexandra" class = "icons">
+		
+	</div>
+	<div id = "race-northcliff" class = "icons">
+
+	</div>
+	<div id = "race-innercity" class = "icons">
+
+	</div>
+	<div id = "race-doornkop" class = "icons">
+
+	</div>
+	<div id = "race-diepkloof" class = "icons">
+
+	</div>
+	<div id = "race-johannesburgsouth" class = "icons">
+
+	</div>
+	<div id = "race-ennerdale" class = "icons">
+
+	</div>
+
+
+	<div id = "lang-diepsloot" class = "icons">
+		
+	</div>
+	<div id = "lang-midrand" class = "icons">
+		
+	</div>
+	<div id = "lang-roodepoort" class = "icons">
+		
+	</div>
+	<div id = "lang-sandton" class = "icons">
+		
+	</div>
+	<div id = "lang-alexandra" class = "icons">
+		
+	</div>
+	<div id = "lang-northcliff" class = "icons">
+
+	</div>
+	<div id = "lang-innercity" class = "icons">
+
+	</div>
+	<div id = "lang-doornkop" class = "icons">
+
+	</div>
+	<div id = "lang-diepkloof" class = "icons">
+
+	</div>
+	<div id = "lang-johannesburgsouth" class = "icons">
+
+	</div>
+	<div id = "lang-ennerdale" class = "icons">
+
+	</div>
+
+</div>
+
+<div id = "info-box">
+		The info box
+</div>
+
+<div id = "instructions">
+	<p id = "instruction-paragraph">
+		For each neighborhood, click the appropriate checkbox in the top left hand corner and the corresponding red icon to <br> display
+		the basic info/racial makeup/linguistic makeup of that neighborhood!
+	</p>
+</div>
+<div id = "navbar">
+
+		<div class = "navbar-item">
+			<a href = "index.html" style="text-decoration:none" id = "home" > 
+				<div >Home</div>
+			</a>
+		</div>
+		<div class = "navbar-item">
+			<a href = "food.html" style="text-decoration:none" id = "food" > 
+				<div >Food</div>
+			</a>
+		</div>
+		<div class = "navbar-item">
+			<a href = "neighborhoods.html" style="text-decoration:none" id = "neighborhoods"> 
+				<div>Neighborhoods  </div>
+			</a>
+		</div>
+		<div class = "navbar-item">
+			<a href = "schools.html" style="text-decoration:none" id = "schools"> 
+				<div>Schools </div> 
+			</a>
+		</div>
+
+</div>
+
+
+</body>
+</html>

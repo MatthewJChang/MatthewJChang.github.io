@@ -1,0 +1,157 @@
+body{
+background-image: url('http://www.sleeping-out.co.za/images/Johannesburg.gif');
+background-size: 1100px 820px;
+background-repeat: no-repeat;
+width:100%;
+height:100%;
+overflow: hidden;
+
+}
+
+html{
+	width:100%;
+	height:100%;
+}
+
+.icons{
+	z-index: 1;
+	font-family: "Ubuntu", sans-serif;
+}
+
+#map-container{
+	position: relative;
+	width:100%
+	height:100%;
+}
+
+#cafedesol{
+	position: absolute;
+	margin: 130px 400px;
+	z-index: 1;
+}
+
+#lavieenrose{
+	position: absolute;
+	margin: 220px 535px;
+	z-index: 1;
+}
+
+#fishandchips{
+	position: absolute;
+	margin: 510px 210px;
+	z-index: 1;
+}
+
+#wimpy{
+	position: absolute;
+	margin: 450px 510px;
+	z-index: 1;
+}
+
+#info-cafedesol {
+
+	position: absolute;
+	margin: 170px 500px;
+	z-index: 1;
+	background-color: #BD897E;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+#info-lavieenrose {
+
+	position: absolute;
+	margin: 100px 700px;
+	z-index: 1;
+	background-color: #D7D0C8;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+#info-fishandchips{
+
+	position: absolute;
+	margin: 170px 170px;
+	z-index: 1;
+	background-color: #4BB23F;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+#info-wimpy{
+
+	position: absolute;
+	margin: 170px 170px;
+	z-index: 1;
+	background-color: #A7CC59;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+.info-block{
+	display: block;
+	margin: 0px 20px 0px 2px;
+}
+
+#description-info-cafedesol{
+	margin: 30px 30px;
+	text-align: center;
+}
+
+.img-cafedesol{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+.img-lavieenrose{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+.img-fishandchips{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+.img-wimpy{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+#navbar{
+	position: absolute;
+	bottom: 0px;
+	background-color: #73C1C6;
+	width: 100vw;
+	z-index:1;
+	text-align: center;
+	/* padding: 5px 20px; */
+
+}
+
+.navbar-item{
+	display: inline-block;
+	font-size: 250%;
+	margin: 20px 100px;
+
+}
+
+#instruction-paragraph{
+	font-size:250%;
+	font-family: "Mukta Vaani", serif;
+	text-align: center;
+}
+
+#instructions{
+	margin: 10px 3px 800px 900px;
+}
+
+.dining-icon{
+	border:1px solid #021a40;
+}
+
+

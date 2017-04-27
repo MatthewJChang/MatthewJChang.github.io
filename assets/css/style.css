@@ -1,0 +1,57 @@
+#background-overlay{
+	
+	
+}
+
+body,html{background-image: url('http://aussiecircus.com/wp-content/uploads/2016/02/Johannesburg-City-Lights-South-Africa-1080x1920.jpg');background-blend-mode: lighten;margin: 0;width: 100%;height: 100%;}
+.navbar-item{
+	display: inline-block;
+	margin: 5px 5px;
+	font-size: 250%;
+	padding: 20px 35px;
+}
+
+#navbar {
+	background-color: #73C1C6;
+	bottom: 0px 270px;
+	/* padding: 5px 20px; */
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+#navbox {position: absolute;bottom: 0;background-color: #73C1C6;width: 100vw;}
+
+#container {
+
+	background-image: url('http://aussiecircus.com/wp-content/uploads/2016/02/Johannesburg-City-Lights-South-Africa-1080x1920.jpg');
+
+	position: relative;
+	width: 100%;
+	height: 100%
+}
+
+#main{
+
+	height: 100%;
+	position: absolute;
+}
+
+#heading{
+	display: table;
+	margin: 20px 230px;
+
+	font-size: 300%;
+	font-family: "Oswald", serif;
+}
+
+#paragraph{
+	font-family: "Mukta Vaani", serif;
+	font-size: 200%;
+	padding: 0px 130px 0px 30px;
+	text-align: center;
+	color: white;
+}
+
+
+

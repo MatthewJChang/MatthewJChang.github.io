@@ -1,0 +1,157 @@
+body{
+background-image: url('http://www.sleeping-out.co.za/images/Johannesburg.gif');
+background-size: 1100px 820px;
+background-repeat: no-repeat;
+width:100%;
+height:100%;
+overflow: hidden;
+
+}
+
+html{
+	width:100%;
+	height:100%;
+}
+
+.icons{
+	z-index: 1;
+	font-family: "Ubuntu", sans-serif;
+}
+
+#map-container{
+	position: relative;
+	width:100%
+	height:100%;
+}
+
+#nizamiye{
+	position: absolute;
+	margin: 220px 470px;
+	z-index: 1;
+}
+
+#marist{
+	position: absolute;
+	margin: 380px 545px;
+	z-index: 1;
+}
+
+#cedarwood{
+	position: absolute;
+	margin: 90px 460px;
+	z-index: 1;
+}
+
+#princess{
+	position: absolute;
+	margin: 260px 240px;
+	z-index: 1;
+}
+
+#info-nizamiye {
+
+	position: absolute;
+	margin: 140px 500px;
+	z-index: 1;
+	background-color: #BD897E;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+#info-marist {
+
+	position: absolute;
+	margin: 30px 700px;
+	z-index: 1;
+	background-color: #D7D0C8;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+#info-cedarwood{
+
+	position: absolute;
+	margin: 250px 170px;
+	z-index: 1;
+	background-color: #4BB23F;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+#info-princess{
+
+	position: absolute;
+	margin: 170px 280px;
+	z-index: 1;
+	background-color: #A7CC59;
+	padding: 30px 30px;
+	text-align: center;
+
+}
+
+.info-block{
+	display: block;
+	margin: 0px 20px 0px 2px;
+}
+
+#description-info-nizamiye{
+	margin: 30px 30px;
+	text-align: center;
+}
+
+.img-nizamiye{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+.img-marist{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+.img-cedarwood{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+.img-princess{
+	display:inline-block;
+	border:1px solid #021a40;
+}
+
+#navbar{
+	position: absolute;
+	bottom: 0px;
+	background-color: #73C1C6;
+	width: 100vw;
+	z-index:1;
+	text-align: center;
+	/* padding: 5px 20px; */
+
+}
+
+.navbar-item{
+	display: inline-block;
+	font-size: 250%;
+	margin: 20px 100px;
+
+}
+
+#instruction-paragraph{
+	font-size:250%;
+	font-family: "Mukta Vaani", serif;
+	text-align: center;
+}
+
+#instructions{
+	margin: 10px 3px 800px 900px;
+}
+
+.dining-icon{
+	border:1px solid #021a40;
+}
+
+
